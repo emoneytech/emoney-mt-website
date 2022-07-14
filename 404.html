@@ -1,25 +1,17 @@
 ---
-permalink: /404.html
 layout: default
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
+{% include header_2.html %}
 <div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-wrapper text-center py-5 my-5">
+          <h1>404</h1>
+          <p><strong>Page not found :(</strong></p>
+          <p>The requested page could not be found.</p>
+          <a href="{{site.url}}">Go Back Home</a>
+      </div>
+    </div>
+  </div>
 </div>
+{% include footer.html %}
