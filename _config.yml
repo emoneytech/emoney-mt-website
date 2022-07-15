@@ -29,19 +29,30 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.emoney.mt" # the base hostname & protocol for your site, e.g. http://example.com
 
-phone_number: "+8801763633959"
-email: "rubel2585@gmail.com"
-company_name: "themeaffair"
-site_logo_one: "/assets/images/logo_1.png"
-site_logo_two: "/assets/images/logo_3.png"
-site_logo_three: "/assets/images/logo_2.png"
-site_name: "Onova"
+phone_number: "+356"
+email: "cs@emoneyplc.com"
+company_name: "Emoney PLC"
+site_logo_one: "/assets/images/logo-shadow.png"
+site_logo_two: "/assets/images/logo-shadow.png"
+site_logo_three: "/assets/images/logo-shadow.png"
+site_name: "Emoney PLC"
 
-facebook_url: "https://facebook.com/emoney"
-twitter_url: "https://twitter.com/emoney"
-pinterest_url: "https://pinterest.com/emoney"
-linkedin_url: "https://linkedin.com/emoney"
-instagram_url: "https://www.instagram.com/emoney"
+# MULTILANGUAGE SETTINGS
+languages: ["en", "de", "fr", "it"]
+exclude_from_localizations: ["javascript", "images", "css"]
+default_locale_in_subfolder: false
+
+# social media addresses
+social:
+  - facebook: 
+    icon: "fa-facebook-f"
+    url: "https://www.facebook.com/emoneyplc/"
+  - twitter:
+    icon: "fa-twitter"
+    url: "https://twitter.com/emoneyplc"
+  - linkedin:
+    icon: "fa-linkedin-in"
+    url: "https://www.linkedin.com/company/em-ney-plc/"
 
 # Build settings
 theme: minima
@@ -49,6 +60,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -2,7 +2,7 @@
 layout: post
 title: "Static Website Short Title Here"
 date: 2019-11-02 15:10:09 +0600
-tags: jekyll
+tags: jekyll 
 categories: [technology]
 author: rubel
 post_image: "/assets/images/blog/10.jpg"

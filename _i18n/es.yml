@@ -1,0 +1,11 @@
+global:
+  english: English
+  deutsch: 'Deutsch'
+  english: 'English'
+  greek: 'Greek'
+  italian: 'Italian'
+  spanish: 'Spanish'
+
+pages:
+  home: Home
+  services: Services
